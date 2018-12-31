@@ -154,7 +154,7 @@ App = {
     });
   },
 
-  buyArticle: function() {
+  buyArticle: function(event) {
     event.preventDefault();
 
     // retrieve the article
